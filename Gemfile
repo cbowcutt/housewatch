@@ -38,6 +38,8 @@ gem 'jbuilder', '~> 2.5'
 # Use Nokogiri for webscraping content from congress.gov
 gem 'nokogiri'
 
+gem 'react-rails'
+
 gem 'redis'
 gem 'redis-rails'
 group :development, :test do

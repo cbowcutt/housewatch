@@ -1,22 +1,2 @@
 <h1>Latest Resolutions</h1>
- 
-<table>
-  <tr>
-    <th>I.D.</th>
-    <th>Date</th>
-    <th>Title</th>
-    <th></th>
-    <th></th>
-  </tr>
- 
-<% @resolutions.each do |resolution| %>
-  <tr>
-    <td><%= resolution.number %></td>
-    <td><%= resolution.date %></td>
-    <td><%= resolution.title %></td>
-  </tr>
-<% end %>
-</table>
- 
-<br>
- 
+<%= #react_component("Resolutions",{resolutions: @resolutions}, {prerender: true}) %>
