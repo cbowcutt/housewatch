@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Use Nokogiri for webscraping content from congress.gov
-gem 'nokogiri'
+gem 'nokogiri', '~> 1.8.0'
 
 gem 'react-rails'
 
